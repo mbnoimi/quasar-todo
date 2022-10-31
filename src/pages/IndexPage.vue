@@ -27,7 +27,7 @@
       </q-list>
     </q-card>
     <q-page-sticky position="bottom" :offset="[0, 18]">
-      <q-btn fab icon="mdi-plus" color="secondary" />
+      <q-btn fab glossy icon="mdi-plus" color="secondary" />
     </q-page-sticky>
   </q-page>
 </template>
