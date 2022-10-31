@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header>
+    <q-header elevated>
       <q-toolbar>
         <q-btn
           flat
@@ -11,9 +11,10 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Quasar App </q-toolbar-title>
+        <q-toolbar-title> Todo </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <!-- <div>Quasar v{{ $q.version }}</div> -->
+        <q-btn icon="mdi-logout" flat padding="2px"></q-btn>
       </q-toolbar>
     </q-header>
 

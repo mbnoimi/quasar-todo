@@ -1,6 +1,6 @@
 <template>
   <q-page class="row">
-    <q-card class="col-xs-9">
+    <q-card class="col-xs-12">
       <q-toolbar>
         <q-input
           dense
@@ -26,6 +26,9 @@
         </q-item>
       </q-list>
     </q-card>
+    <q-page-sticky position="bottom" :offset="[0, 18]">
+      <q-btn fab icon="mdi-plus" color="secondary" />
+    </q-page-sticky>
   </q-page>
 </template>
 
