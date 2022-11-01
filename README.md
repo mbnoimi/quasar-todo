@@ -1,6 +1,6 @@
 # Todo (quasar-todo)
 
-An Quasar Project built depending on [Luke Diebold's tutorial](https://www.youtube.com/playlist?list=PLFZAa7EupbB5r2oPtDzN0DY2D0jym9Ih_) and updated to use TypeScript, Composite API and Setup.
+An Quasar Project built depending on [Luke Diebold's tutorial](https://www.youtube.com/playlist?list=PLFZAa7EupbB5r2oPtDzN0DY2D0jym9Ih_) and updated to use TypeScript, Composition API and Setup.
 
 ## Install the dependencies
 
